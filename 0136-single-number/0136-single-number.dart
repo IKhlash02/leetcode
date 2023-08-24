@@ -6,14 +6,14 @@ class Solution {
       counterMap[nums[i]] = (counterMap[nums[i]] ?? 0) + 1;
     }
 
-    int ans = 0;
+ 
 
     for (int value in counterMap.keys) {
       if (counterMap[value] == 1) {
         return value;
       }
     }
+return -1;
 
-    return ans;
   }
 }
