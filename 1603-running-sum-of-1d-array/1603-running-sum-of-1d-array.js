@@ -4,9 +4,9 @@
  */
 var runningSum = function(nums) {
     let value = [];
-
+    let sum = 0;
     for(let i = 0; i<nums.length; i++){
-        let sum = 0;
+    sum = 0;
         for(let j = 0; j<=i; j++){
             sum += nums[j];
         }
