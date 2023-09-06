@@ -3,13 +3,13 @@ class Solution {
       
       String value1 = "";
       String value2 = "";
-      for(int i = 0; i< word1.length;i++){
-          value1 += word1[i];
-    
+
+      for(String element in word1){
+        value1 += element;
       }
-         for(int i = 0; i< word2.length;i++){
-          value2 += word2[i];
-    
+
+       for(String element in word2){
+        value2 += element;
       }
 
       if(value1 == value2) return true;
